@@ -1,10 +1,14 @@
 # Polymarket Arbitrage Trading Bot Pack ( 5min/15min/1hr arbitrage bot + Copy Trading + Cross‑Market Arb)
 
-**English** | [中文（简体）](README.zh-CN.md)
+**English** | [中文（简体）](README.zh-CN.md) | [Русский](README.ru.md)
 
-**Contact / Buy full versions / Premium support:** Telegram [@x_movez](https://t.me/x_movez)
+**Contact / Buy full versions / Premium support:**
 
-![PolyScripts Polymarket Trading Bot Pack](banner.jpg)
+- Telegram: [@x_movez](https://t.me/x_movez)
+- WeChat: **wxid_52o2ngssqyam22**
+- **Refer a buyer:** Refer someone who purchases a full bot or premium build and choose your reward: **20% commission** or **free bot access**.
+
+![Polyscripts2 Polymarket Trading Bot Pack](banner.jpg)
 
 ---
 
@@ -17,7 +21,7 @@ This repository is a **curated pack of Polymarket trading bots and strategies** 
 - **Ultra-fast execution** (Rust low-latency tooling)
 - **Specialized trading UIs** (sports click-to-bet execution)
 
-If you want the **full source code**, advanced features, help deploying on a VPS, custom strategy work, or a premium version, message me on Telegram: **[@x_movez](https://t.me/x_movez)**.
+If you want the **full source code**, advanced features, help deploying on a VPS, custom strategy work, or a premium version, message me on Telegram **[@x_movez](https://t.me/x_movez)** or WeChat **wxid_52o2ngssqyam22**.
 
 ---
 
@@ -27,7 +31,7 @@ If you want the **full source code**, advanced features, help deploying on a VPS
 
 ### 1) Polymarket 5‑min / 15‑min BTC Arbitrage Bot (Rust)
 
-- **GitHub repo**: [`PolyScripts/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust`](https://github.com/PolyScripts/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust)
+- **GitHub repo**: [`Polyscripts2/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust`](https://github.com/Polyscripts2/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust)
 - **Best for**: Traders who need **speed**
 - **Core idea**: Low-latency order placement for short window BTC Up/Down markets, with configurable dry-run + live modes
 - **Want 1hr / XRP / SOL / ETH bots?** Message Telegram **[@x_movez](https://t.me/x_movez)** to buy the premium builds.
@@ -44,7 +48,7 @@ Preview:
 
 ### 2) Polymarket ↔ Kalshi Arbitrage Bot (Python)
 
-- **GitHub repo**: [`PolyScripts/polymarket-kalshi-crossplatform-arbitrage-bot`](https://github.com/PolyScripts/polymarket-kalshi-crossplatform-arbitrage-bot)
+- **GitHub repo**: [`Polyscripts2/polymarket-kalshi-crossplatform-arbitrage-bot`](https://github.com/Polyscripts2/polymarket-kalshi-crossplatform-arbitrage-bot)
 - **Best for**: Cross-market pricing inefficiencies (15-min windows)
 - **Core idea**: Watch both venues in real time, confirm pricing edges, and execute hedged legs with thresholds + logging
 - **Upgrade request**: Want to extend features to the **1hr market**? Message **[@x_movez](https://t.me/x_movez)**.
@@ -81,7 +85,7 @@ Preview:
 
 ### 5) Polymarket Copy Trading Bot (Python)
 
-- **GitHub repo**: [`PolyScripts/polymarket-copy-trading-bot-py`](https://github.com/PolyScripts/polymarket-copy-trading-bot-py)
+- **GitHub repo**: [`Polyscripts2/polymarket-copy-trading-bot-py`](https://github.com/Polyscripts2/polymarket-copy-trading-bot-py)
 - **Best for**: Copying top wallets automatically
 - **Core idea**: Mirror BUY/SELL actions from one or multiple target wallets with configurable sizing + risk limits
 
@@ -95,7 +99,7 @@ Preview:
 
 ### 6) Polymarket Sports Betting Execution Bot (Rust + Python server)
 
-- **GitHub repo**: [`PolyScripts/polymarket-sports-betting-trading-py`](https://github.com/PolyScripts/polymarket-sports-betting-trading-py)
+- **GitHub repo**: [`Polyscripts2/polymarket-sports-betting-trading-py`](https://github.com/Polyscripts2/polymarket-sports-betting-trading-py)
 - **Best for**: Manual traders who want **click-to-bet speed**
 - **Core idea**: A focused live-sports interface with real-time prices; you click, it executes fast (FAK/market-style flow)
 
@@ -116,7 +120,19 @@ This pack contains **working demos and strategy previews**. Many traders ask for
 - VPS deployment, monitoring, and Telegram alerts
 - Custom strategy rules and risk controls
 
-Message me on Telegram: **[@x_movez](https://t.me/x_movez)**.
+### Refer a buyer
+
+Refer someone who purchases a full bot or premium build and choose your reward: **20% commission** or **free bot access**.
+
+Message me on Telegram **[@x_movez](https://t.me/x_movez)** or WeChat **wxid_52o2ngssqyam22** (scan the QR code below).
+
+---
+
+## Recommended VPS for Polymarket bots
+
+For stable 24/7 bot execution, I recommend **[TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)** — **Dublin** or **Amsterdam** for Polymarket.
+
+**Get started:** [TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)
 
 ---
 
@@ -124,3 +140,4 @@ Message me on Telegram: **[@x_movez](https://t.me/x_movez)**.
 
 These tools are provided for educational and research purposes. Trading involves risk. You are responsible for configuration, compliance, and all trading outcomes.
 
+![WeChat QR code](images/wechat.png)

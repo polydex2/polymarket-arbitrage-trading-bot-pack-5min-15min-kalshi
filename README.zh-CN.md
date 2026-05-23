@@ -1,10 +1,14 @@
 # Polymarket 套利交易机器人合集（5min/15min btc arbitrage + 跟单 + 跨平台套利）
 
-[English](README.md) | **中文（简体）**
+[English](README.md) | **中文（简体）** | [Русский](README.ru.md)
 
-**联系 / 购买完整版 / 高级支持：** Telegram [@x_movez](https://t.me/x_movez)
+**联系 / 购买完整版 / 高级支持：**
 
-![PolyScripts Polymarket Trading Bot Pack](banner.jpg)
+- Telegram：[@x_movez](https://t.me/x_movez)
+- 微信：**wxid_52o2ngssqyam22**
+- **推荐奖励：** 成功推荐购买者，可选择：**20% 佣金** 或 **免费机器人使用权**。
+
+![Polyscripts2 Polymarket Trading Bot Pack](banner.jpg)
 
 ---
 
@@ -17,7 +21,7 @@
 - **超低延迟执行**（Rust 工具链，适合抢速度）
 - **专用交易界面**（体育盘快速点击下单）
 
-如果你想要 **完整源码**、定制功能、部署/运维协助（VPS）、或高级版本，请私信 Telegram：**[@x_movez](https://t.me/x_movez)**。
+如果你想要 **完整源码**、定制功能、部署/运维协助（VPS）、或高级版本，请通过 Telegram **[@x_movez](https://t.me/x_movez)** 或微信 **wxid_52o2ngssqyam22** 联系。
 
 ---
 
@@ -27,7 +31,7 @@
 
 ### 1) Polymarket 5 分钟 / 15 分钟 BTC 套利机器人（Rust）
 
-- **GitHub 仓库**：[`PolyScripts/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust`](https://github.com/PolyScripts/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust)
+- **GitHub 仓库**：[`Polyscripts2/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust`](https://github.com/Polyscripts2/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust)
 - **适用人群**：对 **速度** 有强需求的交易者
 - **策略概述**：为短周期 BTC Up/Down 窗口提供低延迟下单能力，支持 dry-run 与实盘模式
 - **想买 1 小时 / XRP / SOL / ETH 版本？** 直接 Telegram 联系 **[@x_movez](https://t.me/x_movez)** 获取高级版。
@@ -41,7 +45,7 @@
 
 ### 2) Polymarket ↔ Kalshi 跨平台套利机器人（Python）
 
-- **GitHub 仓库**：[`PolyScripts/polymarket-kalshi-crossplatform-arbitrage-bot`](https://github.com/PolyScripts/polymarket-kalshi-crossplatform-arbitrage-bot)
+- **GitHub 仓库**：[`Polyscripts2/polymarket-kalshi-crossplatform-arbitrage-bot`](https://github.com/Polyscripts2/polymarket-kalshi-crossplatform-arbitrage-bot)
 - **适用人群**：做跨平台价差 / 15 分钟窗口机会的交易者
 - **策略概述**：WebSocket 实时监控两边价格，满足阈值后执行对冲腿，并落地完整日志
 - **升级需求**：想把功能扩展到 **1 小时市场**？请联系 **[@x_movez](https://t.me/x_movez)**。
@@ -77,7 +81,7 @@
 
 ### 5) Polymarket 跟单机器人（Python）
 
-- **GitHub 仓库**：[`PolyScripts/polymarket-copy-trading-bot-py`](https://github.com/PolyScripts/polymarket-copy-trading-bot-py)
+- **GitHub 仓库**：[`Polyscripts2/polymarket-copy-trading-bot-py`](https://github.com/Polyscripts2/polymarket-copy-trading-bot-py)
 - **适用人群**：想自动跟随高手钱包的交易者
 - **策略概述**：实时镜像目标钱包的 BUY/SELL，可跟随多个钱包，支持多种仓位模式与风险限制
 
@@ -90,7 +94,7 @@
 
 ### 6) Polymarket 体育盘执行机器人（Rust + Python 服务）
 
-- **GitHub 仓库**：[`PolyScripts/polymarket-sports-betting-trading-py`](https://github.com/PolyScripts/polymarket-sports-betting-trading-py)
+- **GitHub 仓库**：[`Polyscripts2/polymarket-sports-betting-trading-py`](https://github.com/Polyscripts2/polymarket-sports-betting-trading-py)
 - **适用人群**：手动交易但需要更快下单的体育盘交易者
 - **策略概述**：提供聚焦直播体育盘的简洁界面与实时价格；你负责决策，机器人负责快速执行
 
@@ -111,7 +115,19 @@
 - VPS 部署、监控、Telegram 告警
 - 定制策略规则与风控模块
 
-请联系 Telegram：**[@x_movez](https://t.me/x_movez)**。
+### 推荐奖励
+
+成功推荐购买者，可选择：**20% 佣金** 或 **免费机器人使用权**。
+
+请联系 Telegram：**[@x_movez](https://t.me/x_movez)**，或添加微信：**wxid_52o2ngssqyam22**（也可扫描下方二维码）。
+
+---
+
+## 推荐 VPS（Polymarket 机器人）
+
+如需稳定 7×24 运行机器人，推荐使用 **[TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)** — 建议选择 **都柏林（Dublin）** 或 **阿姆斯特丹（Amsterdam）**。
+
+**立即开通：** [TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)
 
 ---
 
@@ -119,3 +135,4 @@
 
 本项目仅用于学习与研究。交易有风险，请自行承担配置、合规与交易结果。
 
+![微信二维码](images/wechat.png)
