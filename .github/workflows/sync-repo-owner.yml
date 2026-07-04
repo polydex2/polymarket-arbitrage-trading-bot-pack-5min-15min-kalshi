@@ -1,0 +1,41 @@
+name: Sync repo owner in README links
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rewrite sibling-repo links to current owner
+        env:
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          shopt -s nullglob
+          files=(README.md README.*.md)
+          while IFS= read -r repo || [[ -n "$repo" ]]; do
+            [[ -z "$repo" || "$repo" =~ ^# ]] && continue
+            for file in "${files[@]}"; do
+              sed -i -E "s|https://github.com/[^/]+/${repo}|https://github.com/${OWNER}/${repo}|g" "$file"
+              sed -i -E "s|https://github.com/__REPO_OWNER__/${repo}|https://github.com/${OWNER}/${repo}|g" "$file"
+            done
+          done < .github/sibling-repos.txt
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "README links already point to ${GITHUB_REPOSITORY_OWNER}"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.*.md
+          git commit -m "chore: sync README repo links to ${GITHUB_REPOSITORY_OWNER} [skip ci]"
+          git push
