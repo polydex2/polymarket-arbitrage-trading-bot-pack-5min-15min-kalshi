@@ -135,5 +135,3 @@ For stable 24/7 bot execution, I recommend **[TradingVPS](https://app.tradingvps
 ## Disclaimer
 
 These tools are provided for educational and research purposes. Trading involves risk. You are responsible for configuration, compliance, and all trading outcomes.
-
-![WeChat QR code](images/wechat.png)
