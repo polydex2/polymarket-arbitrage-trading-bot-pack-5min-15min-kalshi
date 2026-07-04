@@ -15,7 +15,7 @@ This repository is a **curated pack of Polymarket trading bots and strategies** 
 - **Ultra-fast execution** (Rust low-latency tooling)
 - **Specialized trading UIs** (sports click-to-bet execution)
 
-If you want the **full source code**, advanced features, help deploying on a VPS, custom strategy work, or a premium version — Telegram: @x_movez · WeChat: wxid_52o2ngssqyam22
+If you want the **full source code**, advanced features, help deploying on a VPS, custom strategy work, or a premium version — Telegram: [@x_movez](https://t.me/x_movez) · WeChat: wxid_52o2ngssqyam22
 
 - **Refer a buyer:** Refer someone who purchases a full bot or premium build and choose your reward: **30% commission** or **free bot access**.
 
