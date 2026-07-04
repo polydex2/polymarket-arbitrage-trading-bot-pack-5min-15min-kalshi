@@ -25,9 +25,11 @@ If you want the **full source code**, advanced features, help deploying on a VPS
 
 > Tip: Each folder has its own README with setup notes and more screenshots.
 
+**My labs** on GitHub include the repos below (repo name only — available under whichever org you host this pack):
+
 ### 1) Polymarket 5‑min / 15‑min BTC Arbitrage Bot (Rust)
 
-- **GitHub repo**: [polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust](https://github.com/polydex2/polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust)
+- **GitHub repo**: polymarket-5min-15min-1hr-btc-arbitrage-trading-bot-rust
 - **Best for**: Traders who need **speed**
 - **Core idea**: Low-latency order placement for short window BTC Up/Down markets, with configurable dry-run + live modes
 - **Want 1hr / XRP / SOL / ETH bots?** Message Telegram **[@x_movez](https://t.me/x_movez)** to buy the premium builds.
@@ -44,7 +46,7 @@ Preview:
 
 ### 2) Polymarket ↔ Kalshi Arbitrage Bot (Python)
 
-- **GitHub repo**: [polymarket-kalshi-crossplatform-arbitrage-bot](https://github.com/polydex2/polymarket-kalshi-crossplatform-arbitrage-bot)
+- **GitHub repo**: polymarket-kalshi-crossplatform-arbitrage-bot
 - **Best for**: Cross-market pricing inefficiencies (15-min windows)
 - **Core idea**: Watch both venues in real time, confirm pricing edges, and execute hedged legs with thresholds + logging
 - **Upgrade request**: Want to extend features to the **1hr market**? Message **[@x_movez](https://t.me/x_movez)**.
@@ -81,7 +83,7 @@ Preview:
 
 ### 5) Polymarket Copy Trading Bot (Python)
 
-- **GitHub repo**: [polymarket-copy-trading-bot-py](https://github.com/polydex2/polymarket-copy-trading-bot-py)
+- **GitHub repo**: polymarket-copy-trading-bot-py
 - **Best for**: Copying top wallets automatically
 - **Core idea**: Mirror BUY/SELL actions from one or multiple target wallets with configurable sizing + risk limits
 
@@ -95,7 +97,7 @@ Preview:
 
 ### 6) Polymarket Sports Betting Execution Bot (Rust + Python server)
 
-- **GitHub repo**: [polymarket-sports-betting-trading-py](https://github.com/polydex2/polymarket-sports-betting-trading-py)
+- **GitHub repo**: polymarket-sports-betting-trading-py
 - **Best for**: Manual traders who want **click-to-bet speed**
 - **Core idea**: A focused live-sports interface with real-time prices; you click, it executes fast (FAK/market-style flow)
 
