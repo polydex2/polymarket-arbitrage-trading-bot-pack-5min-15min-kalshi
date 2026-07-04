@@ -24,7 +24,6 @@ jobs:
             [[ -z "$repo" || "$repo" =~ ^# ]] && continue
             for file in "${files[@]}"; do
               sed -i -E "s|https://github.com/[^/]+/${repo}|https://github.com/${OWNER}/${repo}|g" "$file"
-              sed -i -E "s|https://github.com/__REPO_OWNER__/${repo}|https://github.com/${OWNER}/${repo}|g" "$file"
             done
           done < .github/sibling-repos.txt
 
