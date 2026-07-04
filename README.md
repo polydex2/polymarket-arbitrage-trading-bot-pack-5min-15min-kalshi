@@ -2,12 +2,6 @@
 
 **English** | [中文（简体）](README.zh-CN.md) | [Русский](README.ru.md)
 
-**Contact / Buy full versions / Premium support:**
-
-- Telegram: [@x_movez](https://t.me/x_movez)
-- WeChat: **wxid_52o2ngssqyam22**
-- **Refer a buyer:** Refer someone who purchases a full bot or premium build and choose your reward: **20% commission** or **free bot access**.
-
 ![Polymarket Trading Bot Pack](banner.jpg)
 
 ---
@@ -21,7 +15,13 @@ This repository is a **curated pack of Polymarket trading bots and strategies** 
 - **Ultra-fast execution** (Rust low-latency tooling)
 - **Specialized trading UIs** (sports click-to-bet execution)
 
-If you want the **full source code**, advanced features, help deploying on a VPS, custom strategy work, or a premium version, message me on Telegram **[@x_movez](https://t.me/x_movez)** or WeChat **wxid_52o2ngssqyam22**.
+If you want the **full source code**, advanced features, help deploying on a VPS, custom strategy work, or a premium version:
+
+**Contact / Buy full versions / Premium support:**
+
+- Telegram: [@x_movez](https://t.me/x_movez)
+- WeChat: **wxid_52o2ngssqyam22**
+- **Refer a buyer:** Refer someone who purchases a full bot or premium build and choose your reward: **30% commission** or **free bot access**.
 
 ---
 
@@ -122,7 +122,7 @@ This pack contains **working demos and strategy previews**. Many traders ask for
 
 ### Refer a buyer
 
-Refer someone who purchases a full bot or premium build and choose your reward: **20% commission** or **free bot access**.
+Refer someone who purchases a full bot or premium build and choose your reward: **30% commission** or **free bot access**.
 
 Message me on Telegram **[@x_movez](https://t.me/x_movez)** or WeChat **wxid_52o2ngssqyam22** (scan the QR code below).
 
