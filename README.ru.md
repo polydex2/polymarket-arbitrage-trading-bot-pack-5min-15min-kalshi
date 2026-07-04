@@ -131,8 +131,6 @@
 
 Для стабильной работы ботов 24/7 рекомендую **[TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)** — **Dublin** или **Amsterdam** для Polymarket.
 
-**Начать:** [TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)
-
 ---
 
 ## Дисклеймер

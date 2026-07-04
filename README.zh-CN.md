@@ -129,8 +129,6 @@
 
 如需稳定 7×24 运行机器人，推荐使用 **[TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)** — 建议选择 **都柏林（Dublin）** 或 **阿姆斯特丹（Amsterdam）**。
 
-**立即开通：** [TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)
-
 ---
 
 ## 免责声明

@@ -130,8 +130,6 @@ Message me on Telegram **[@x_movez](https://t.me/x_movez)** or WeChat **wxid_52o
 
 For stable 24/7 bot execution, I recommend **[TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)** — **Dublin** or **Amsterdam** for Polymarket.
 
-**Get started:** [TradingVPS](https://app.tradingvps.io/index.php?m=refer&id=756153)
-
 ---
 
 ## Disclaimer
